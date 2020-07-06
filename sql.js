@@ -1,4 +1,4 @@
-const sqlite3 = require('sqlite3').verbose();
+	const sqlite3 = require('sqlite3').verbose();
 const db = new sqlite3.Database('test.db');
 
 if( process.argv.length < 3 )	process.exit(0);
